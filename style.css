@@ -7,13 +7,13 @@ body {
   
   .gallery {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 20px;
   }
   
   .column {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
   }
   
   img {
