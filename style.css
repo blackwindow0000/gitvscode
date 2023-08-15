@@ -13,7 +13,7 @@ body {
   
   .column {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
   }
   
   img {
@@ -24,7 +24,7 @@ body {
   
   @media screen and (max-width: 600px) {
     .gallery {
-      flex-direction: row-reverse; 
+      flex-direction: column-reverse; 
       align-items: center; 
     }
   }
